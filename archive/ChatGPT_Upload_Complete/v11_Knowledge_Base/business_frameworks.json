@@ -1,0 +1,324 @@
+{
+    "business_frameworks": {
+        "name": "Complete Business Advisory Frameworks",
+        "version": "11.0.0",
+        "description": "Comprehensive collection of proven business frameworks for strategic analysis and decision making",
+        "strategic_frameworks": {
+            "business_model_canvas": {
+                "description": "Visual framework for developing and documenting business models",
+                "components": [
+                    "key_partners",
+                    "key_activities",
+                    "key_resources",
+                    "value_propositions",
+                    "customer_relationships",
+                    "channels",
+                    "customer_segments",
+                    "cost_structure",
+                    "revenue_streams"
+                ],
+                "use_cases": [
+                    "startup_planning",
+                    "business_model_innovation",
+                    "strategic_pivots"
+                ]
+            },
+            "lean_startup": {
+                "description": "Methodology for developing businesses through validated learning",
+                "core_loop": "build -> measure -> learn",
+                "key_concepts": [
+                    "minimum_viable_product",
+                    "validated_learning",
+                    "innovation_accounting",
+                    "pivot_or_persevere"
+                ],
+                "use_cases": [
+                    "product_development",
+                    "market_validation",
+                    "risk_reduction"
+                ]
+            },
+            "blue_ocean_strategy": {
+                "description": "Strategy for creating uncontested market space",
+                "tools": [
+                    "strategy_canvas",
+                    "four_actions_framework",
+                    "eliminate_reduce_raise_create_grid"
+                ],
+                "principles": [
+                    "value_innovation",
+                    "differentiation_and_low_cost",
+                    "new_market_creation"
+                ],
+                "use_cases": [
+                    "market_differentiation",
+                    "competitive_strategy",
+                    "innovation_planning"
+                ]
+            },
+            "platform_strategy": {
+                "description": "Framework for building multi-sided platforms",
+                "components": [
+                    "core_platform",
+                    "ecosystem_partners",
+                    "network_effects",
+                    "governance_model"
+                ],
+                "success_factors": [
+                    "critical_mass",
+                    "chicken_and_egg_problem",
+                    "platform_governance"
+                ],
+                "use_cases": [
+                    "digital_transformation",
+                    "ecosystem_building",
+                    "network_businesses"
+                ]
+            },
+            "jobs_to_be_done": {
+                "description": "Framework for understanding customer needs and innovation",
+                "core_concept": "customers_hire_products_to_do_jobs",
+                "job_types": [
+                    "functional_jobs",
+                    "emotional_jobs",
+                    "social_jobs"
+                ],
+                "use_cases": [
+                    "product_innovation",
+                    "market_segmentation",
+                    "customer_research"
+                ]
+            }
+        },
+        "analysis_frameworks": {
+            "risk_assessment": {
+                "categories": [
+                    "market_risk",
+                    "technical_risk",
+                    "operational_risk",
+                    "financial_risk",
+                    "regulatory_risk"
+                ],
+                "assessment_criteria": [
+                    "probability",
+                    "impact",
+                    "mitigation_cost",
+                    "detection_difficulty"
+                ],
+                "mitigation_strategies": [
+                    "avoid",
+                    "reduce",
+                    "transfer",
+                    "accept"
+                ]
+            },
+            "market_analysis": {
+                "components": [
+                    "total_addressable_market",
+                    "serviceable_addressable_market",
+                    "serviceable_obtainable_market",
+                    "competitive_landscape",
+                    "market_trends",
+                    "customer_segments"
+                ],
+                "research_methods": [
+                    "primary_research",
+                    "secondary_research",
+                    "competitive_intelligence"
+                ]
+            },
+            "financial_analysis": {
+                "metrics": [
+                    "customer_acquisition_cost",
+                    "lifetime_value",
+                    "monthly_recurring_revenue",
+                    "annual_recurring_revenue",
+                    "churn_rate",
+                    "gross_margin",
+                    "burn_rate",
+                    "runway"
+                ],
+                "ratios": [
+                    "ltv_cac_ratio",
+                    "gross_margin_percentage",
+                    "net_revenue_retention"
+                ]
+            }
+        },
+        "creative_thinking_frameworks": {
+            "divergent_thinking": {
+                "description": "Generate multiple creative solutions",
+                "techniques": [
+                    "brainstorming",
+                    "mind_mapping",
+                    "scamper_method",
+                    "random_word_association"
+                ],
+                "principles": [
+                    "defer_judgment",
+                    "strive_for_quantity",
+                    "build_on_ideas",
+                    "encourage_wild_ideas"
+                ]
+            },
+            "convergent_thinking": {
+                "description": "Evaluate and select best solutions",
+                "techniques": [
+                    "affinity_mapping",
+                    "dot_voting",
+                    "decision_matrix",
+                    "cost_benefit_analysis"
+                ],
+                "principles": [
+                    "define_criteria",
+                    "systematic_evaluation",
+                    "consensus_building",
+                    "objective_assessment"
+                ]
+            },
+            "lateral_thinking": {
+                "description": "Approach problems from unexpected angles",
+                "techniques": [
+                    "random_entry",
+                    "provocation",
+                    "concept_extraction",
+                    "alternatives"
+                ],
+                "principles": [
+                    "suspend_judgment",
+                    "explore_assumptions",
+                    "seek_alternatives",
+                    "use_provocations"
+                ]
+            },
+            "systems_thinking": {
+                "description": "Understand interconnections and patterns",
+                "concepts": [
+                    "feedback_loops",
+                    "leverage_points",
+                    "system_archetypes",
+                    "mental_models"
+                ],
+                "tools": [
+                    "causal_loop_diagrams",
+                    "stock_and_flow_diagrams",
+                    "rich_pictures"
+                ]
+            }
+        },
+        "specialized_expertise": {
+            "user_research": {
+                "methods": [
+                    "user_interviews",
+                    "surveys",
+                    "usability_testing",
+                    "ethnographic_research"
+                ],
+                "deliverables": [
+                    "user_personas",
+                    "journey_maps",
+                    "pain_point_analysis",
+                    "behavioral_insights"
+                ]
+            },
+            "data_analysis": {
+                "techniques": [
+                    "descriptive_statistics",
+                    "predictive_modeling",
+                    "cohort_analysis",
+                    "funnel_analysis"
+                ],
+                "tools": [
+                    "statistical_analysis",
+                    "data_visualization",
+                    "hypothesis_testing",
+                    "correlation_analysis"
+                ]
+            },
+            "growth_hacking": {
+                "frameworks": [
+                    "aarrr_metrics",
+                    "growth_loops",
+                    "viral_mechanics",
+                    "retention_strategies"
+                ],
+                "channels": [
+                    "content_marketing",
+                    "social_media",
+                    "paid_advertising",
+                    "referral_programs"
+                ]
+            },
+            "technical_architecture": {
+                "principles": [
+                    "scalability",
+                    "reliability",
+                    "security",
+                    "maintainability"
+                ],
+                "patterns": [
+                    "microservices",
+                    "api_design",
+                    "database_optimization",
+                    "caching_strategies"
+                ]
+            },
+            "brand_strategy": {
+                "components": [
+                    "brand_positioning",
+                    "brand_personality",
+                    "brand_messaging",
+                    "brand_identity"
+                ],
+                "frameworks": [
+                    "brand_pyramid",
+                    "brand_archetype",
+                    "brand_essence",
+                    "brand_promise"
+                ]
+            }
+        },
+        "implementation_guidelines": {
+            "project_phases": {
+                "phase_1_assessment": "Risk evaluation and market research",
+                "phase_2_strategy": "Creative thinking and framework application",
+                "phase_3_planning": "Detailed implementation planning",
+                "phase_4_execution": "Systematic execution with monitoring",
+                "phase_5_optimization": "Continuous improvement and adaptation"
+            },
+            "success_metrics": {
+                "leading_indicators": [
+                    "engagement_metrics",
+                    "pipeline_metrics",
+                    "efficiency_metrics"
+                ],
+                "lagging_indicators": [
+                    "revenue_growth",
+                    "market_share",
+                    "customer_satisfaction"
+                ],
+                "balanced_scorecard": [
+                    "financial",
+                    "customer",
+                    "internal_process",
+                    "learning_and_growth"
+                ]
+            },
+            "quality_assurance": {
+                "validation_dimensions": [
+                    "accuracy",
+                    "relevance",
+                    "feasibility",
+                    "completeness",
+                    "consistency"
+                ],
+                "review_process": [
+                    "peer_review",
+                    "expert_validation",
+                    "stakeholder_feedback",
+                    "pilot_testing"
+                ]
+            }
+        }
+    }
+}

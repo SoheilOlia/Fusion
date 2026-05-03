@@ -1,0 +1,189 @@
+{
+    "context_engineering_framework": {
+        "name": "Context Engineering Framework",
+        "version": "1.0.0",
+        "description": "Advanced framework for context-driven AI systems based on cutting-edge research and implementation patterns",
+        "source_repositories": [
+            "https://github.com/Donsoleil/context-engineering-intro.git",
+            "https://github.com/Donsoleil/PRPs-agentic-eng.git"
+        ],
+        "core_principles": {
+            "context_first": {
+                "description": "Never provide advice without gathering relevant context",
+                "implementation": "Always initiate context gathering before strategic recommendations",
+                "validation": "Ensure minimum context threshold before proceeding"
+            },
+            "evidence_based": {
+                "description": "All recommendations must be backed by specific data",
+                "implementation": "Reference specific data points in all strategic advice",
+                "validation": "Confidence scoring based on data quality and completeness"
+            },
+            "adaptive_intelligence": {
+                "description": "System learns and adapts based on context and outcomes",
+                "implementation": "Continuous feedback loops and context refinement",
+                "validation": "Track recommendation accuracy and context quality over time"
+            }
+        },
+        "context_layers": {
+            "layer_1_instructions": {
+                "description": "AI's constitution, persona, goals, ethical boundaries",
+                "priority": "highest",
+                "position": "primacy_effect"
+            },
+            "layer_2_user_info": {
+                "description": "Personalization data, user preferences, account details",
+                "priority": "high",
+                "position": "primacy_effect"
+            },
+            "layer_3_knowledge_context": {
+                "description": "RAG layer with verified, factual information",
+                "priority": "high",
+                "position": "primacy_effect"
+            },
+            "layer_4_task_state": {
+                "description": "Multi-step task management and workflow state",
+                "priority": "medium",
+                "position": "middle"
+            },
+            "layer_5_tool_explanation": {
+                "description": "External tools/APIs available for agent actions",
+                "priority": "medium",
+                "position": "middle"
+            },
+            "layer_6_user_query": {
+                "description": "Immediate user input triggering generation",
+                "priority": "highest",
+                "position": "recency_effect"
+            }
+        },
+        "context_validation": {
+            "completeness_score": {
+                "description": "Percentage of required context data available",
+                "range": "0.0-1.0",
+                "threshold": "0.7"
+            },
+            "accuracy_score": {
+                "description": "Reliability of data sources",
+                "range": "0.0-1.0",
+                "threshold": "0.7"
+            },
+            "recency_score": {
+                "description": "How current the data is",
+                "range": "0.0-1.0",
+                "threshold": "0.7"
+            },
+            "overall_confidence": {
+                "description": "Combined validation score",
+                "calculation": "weighted_average(completeness, accuracy, recency)",
+                "threshold": "0.7"
+            }
+        },
+        "agent_orchestration": {
+            "data_analyst_agent": {
+                "purpose": "Gather quantitative business metrics",
+                "required_context": [
+                    "MRR",
+                    "CAC",
+                    "LTV",
+                    "churn_rate",
+                    "active_customers"
+                ],
+                "validation_criteria": [
+                    "data_currency",
+                    "source_reliability",
+                    "metric_consistency"
+                ]
+            },
+            "market_researcher_agent": {
+                "purpose": "Collect market intelligence and competitive analysis",
+                "required_context": [
+                    "TAM",
+                    "competitors",
+                    "market_share",
+                    "trends",
+                    "growth_rate"
+                ],
+                "validation_criteria": [
+                    "source_credibility",
+                    "data_recency",
+                    "research_methodology"
+                ]
+            },
+            "user_researcher_agent": {
+                "purpose": "Analyze customer feedback and behavioral data",
+                "required_context": [
+                    "customer_feedback",
+                    "NPS",
+                    "feature_requests",
+                    "pain_points"
+                ],
+                "validation_criteria": [
+                    "sample_representativeness",
+                    "feedback_authenticity",
+                    "research_depth"
+                ]
+            },
+            "growth_hacker_agent": {
+                "purpose": "Analyze growth experiments and optimization data",
+                "required_context": [
+                    "channel_performance",
+                    "viral_coefficient",
+                    "referral_rate",
+                    "payback_period"
+                ],
+                "validation_criteria": [
+                    "statistical_significance",
+                    "experiment_rigor",
+                    "results_reproducibility"
+                ]
+            },
+            "technical_architect_agent": {
+                "purpose": "Assess technical capabilities and limitations",
+                "required_context": [
+                    "scalability_limits",
+                    "technical_debt",
+                    "development_velocity",
+                    "system_reliability"
+                ],
+                "validation_criteria": [
+                    "monitoring_data_accuracy",
+                    "architectural_best_practices",
+                    "scalability_metrics"
+                ]
+            }
+        },
+        "response_generation": {
+            "high_confidence_threshold": 0.8,
+            "medium_confidence_threshold": 0.7,
+            "low_confidence_threshold": 0.5,
+            "response_structure": {
+                "context_analysis": "Display confidence scores for each context type",
+                "evidence_based_strategy": "Provide recommendations only above confidence threshold",
+                "validation_framework": "Include success metrics and failure triggers",
+                "continuous_improvement": "Built-in feedback loops for iterative refinement"
+            }
+        },
+        "implementation_patterns": {
+            "context_window_architecture": {
+                "description": "Structured approach to context window management",
+                "reference": "Context Window Architecture (CWA) - contextwindowarchitecture.io",
+                "benefits": [
+                    "reliability",
+                    "debuggability",
+                    "security",
+                    "scalability"
+                ]
+            },
+            "rag_integration": {
+                "description": "Retrieval-Augmented Generation for knowledge context",
+                "position": "layer_3",
+                "validation": "source_reliability_scoring"
+            },
+            "agent_coordination": {
+                "description": "Multi-agent specialist coordination patterns",
+                "reference": "Agentic engineering frameworks",
+                "implementation": "hybrid_llm_deterministic_selection"
+            }
+        }
+    }
+}
